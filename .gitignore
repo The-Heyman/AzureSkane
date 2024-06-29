@@ -133,3 +133,11 @@ __blobstorage__
 __queuestorage__
 __azurite_db*__.json
 .python_packages
+infra/terraform.tfstate
+infra/.terraform.lock.hcl
+infra/.terraform/modules/modules.json
+infra/.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.109.0/darwin_arm64/LICENSE.txt
+infra/.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.109.0/darwin_arm64/terraform-provider-azurerm_v3.109.0_x5
+infra/.terraform/providers/registry.terraform.io/hashicorp/null/3.2.2/darwin_arm64/terraform-provider-null_v3.2.2_x5
+infra/.terraform/providers/registry.terraform.io/hashicorp/random/3.6.2/darwin_arm64/LICENSE.txt
+infra/.terraform/providers/registry.terraform.io/hashicorp/random/3.6.2/darwin_arm64/terraform-provider-random_v3.6.2_x5
