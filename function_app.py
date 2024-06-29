@@ -35,7 +35,7 @@ async def KVEventGridTriggers(azeventgrid: func.EventGridEvent):
         previous_client_secret = secret_client.get_secret(app_registration_object_id)
         previous_client_secret_key_id = previous_client_secret.properties.content_type
 
-        new_password_credential = await set_app_registration_client_secret(app_registration_object_id, previous_client_secret_key_id)
+        new_password_credential = await set_app_registration_client_secret(app_registration_object_id, credential, previous_client_secret_key_id)
 
         if new_password_credential:
             logging.info(f"Updating secret in Key Vault for {app_registration_object_id} app registration.")
