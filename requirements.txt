@@ -6,4 +6,4 @@ azure-functions
 azure-identity
 azure-keyvault-secrets
 azure-graphrbac
-msgraph.core
+msgraph-sdk
