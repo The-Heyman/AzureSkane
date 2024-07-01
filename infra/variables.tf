@@ -6,22 +6,22 @@ variable "subscription_id" {
   type = string
 }
 
-variable   "tenant_id" {
+variable "tenant_id" {
   type = string
 }
 
-variable   "resource_group" {
+variable "resource_group" {
   type = string
 }
 
-variable   "location" {
+variable "location" {
   type = string
 }
 
-variable   "application_registration_object_id" {
+variable "application_registration_object_id" {
   type = string
 }
 
-variable   "azure_function_name" {
+variable "azure_function_name" {
   type = string
 }
